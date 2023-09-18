@@ -1,0 +1,32 @@
+# Ignore node_modules in the app directory
+/app/node_modules
+
+# Ignore log files
+/app/npm-debug.log*
+/app/yarn-debug.log*
+/app/yarn-error.log*
+
+# Ignore environment variable files
+/app/.env
+/app/.env.local
+/app/.env.development
+/app/.env.test
+/app/.env.production
+
+# Ignore temporary files
+/app/tmp
+/app/temp
+
+# Ignore build and dependency directories
+/app/dist
+/app/build
+/app/.cache
+
+# Ignore lock files (depending on whether you're using npm or yarn)
+# Uncomment the appropriate line depending on your package manager.
+/app/package-lock.json
+
+# ignore the ide
+.vscode/
+.idea/
+.DS_Store
