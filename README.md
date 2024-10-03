@@ -17,12 +17,12 @@ Your task is to create a `Dockerfile` that builds and runs the Node.js applicati
 
 ### Grading Rubric:
 
-| Objectives                                                       | Points |
-|------------------------------------------------------------------|--------|
-| Final stage based on `node:20-alpine`                             | 2      |
-| Final image only includes `app.js`, `package.json`, and `views`   | 5      |
-| Entry point starts the app with `node app.js`                     | 2      |
-| Push multi-architecture image to Docker Hub                      | 3      |
+| Objectives                                                      | Points |
+|-----------------------------------------------------------------|--------|
+| Final stage based on `node:20`                             | 2      |
+| Final image only includes `app.js`, `package.json`, and `views`  | 5      |
+| Entry point starts the app with `node app.js`                    | 2      |
+| Push multi-architecture image to Docker Hub                     | 3      |
 
 ---
 
